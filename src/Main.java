@@ -7,7 +7,7 @@ public class Main {
         Command moveLeft = new MoveLeftCommand(jugador);
         Command moveRight = new MoveRightCommand(jugador);
 
-        mandoController mando = new mandoController();
+        MandoController mando = new MandoController();
 
         mando.executeCommand(moveUp);
         mando.executeCommand(moveDown);

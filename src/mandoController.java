@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class mandoController {
+public class MandoController {
     private Stack<Command> movimientos = new Stack<>();
 
     public void executeCommand(Command command) {

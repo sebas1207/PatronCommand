@@ -1,5 +1,5 @@
 public class MoveDownCommand implements Command{
-private Jugador jugador;
+    private Jugador jugador;
 
     public MoveDownCommand(Jugador jugador) {
         this.jugador = jugador;

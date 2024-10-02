@@ -25,18 +25,18 @@ public class Jugador {
         System.out.println("Deshacer movimiento arriba. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
     }
     public void undoMoveDown() {
-    movimientoEjeY ++;
+        movimientoEjeY ++;
 
-    System.out.println("Deshacer movimiento abajo. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
-}
+        System.out.println("Deshacer movimiento abajo. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
+    }
 
-public void undoMoveLeft() {
-    movimientoEjeX++;
-    System.out.println("Deshacer movimiento izquierda. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
-}
+    public void undoMoveLeft() {
+        movimientoEjeX++;
+        System.out.println("Deshacer movimiento izquierda. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
+    }
 
-public void undoMoveRight() {
-    movimientoEjeX--;
-    System.out.println("Deshacer movimiento derecha. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
-}
+    public void undoMoveRight() {
+        movimientoEjeX--;
+        System.out.println("Deshacer movimiento derecha. Nueva posición: (" + movimientoEjeX + ", " + movimientoEjeY + ")");
+    }
 }
